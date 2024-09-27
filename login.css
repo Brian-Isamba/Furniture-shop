@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "poppins";
+
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    font-family: sans;
+    background-color: rgb(0, 117, 102);
+}
+.welcome{
+    font-family: sans;
+   
+    
+}
+.container{
+    background-color: rgba(242, 235, 243, 0.801);
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+    width: 90%;
+    margin: 10px;
+    max-width: 450px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400; 
+    justify-content: center;
+    margin-top: 20px;
+}
+.back a{
+  text-decoration: none;
+  color: rgb(3, 110, 75);
+  font-weight: 700;
+  background-color: rgb(2, 212, 177);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.back a:hover{
+    color: rgb(5, 179, 150);
+
+}
+.login_btn{
+    margin: 10px;
+    
+}
+.signup_link{
+    color: gray;
+}
+@media (width > 1024px) {
+    .container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+}  
